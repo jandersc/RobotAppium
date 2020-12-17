@@ -13,5 +13,5 @@ Deve abrir a tela principal
     ...                  adbExecTimeout=120000
 
     Wait Until Page Contains    Training Wheels Protocol     5  #aguarda até 5 segundos para aoarecer a primera parte do texto
-    Wait Until Page Contains    Mobile Version                  #procura o restante do texto
+    Wait Until Page Contains    Mobile Version               5  #procura o restante do texto
     Close Application   #Fecha a sessão da automação
