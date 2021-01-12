@@ -1,1 +1,3 @@
-logs/*
+logs/log.html
+logs/output.xml
+logs/report.html
