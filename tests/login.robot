@@ -6,16 +6,10 @@ Test Teardown   Close Session   #chama a keyword para fechar a sessão
 
 ***Test Cases***
 Deve logar com sucesso
-    Open Nav     #chama a  KW para abrir o menu esquerdo          
+    Go To Login Form    #chama a KW para direcionar até a tela de login
+    
+    Input Text      id=io.qaninja.android.twp:id/etEmail        eu@papito.io       #informa o e-mail
+    Input Text      id=io.qaninja.android.twp:id/etPassword     qaninja            #informa a senha 
+    Click Element   id=io.qaninja.android.twp:id/btnSubmit                         #clica no botão entrar
 
-    Click Text                  FORMS       #clica na opção FORMS
-    Wait Until Page Contains    FORMS       #aguarda até abrir a tela de FORMS
-
-    Click Text                  LOGIN       #clica na opção LOGIN
-    Wait Until Page Contains    Fala QA, vamos testar o login?      #aguarda até abrir a tela de LOGIN
-
-    Input Text      id=io.qaninja.android.twp:id/etEmail        eu@papito.io
-    Input Text      id=io.qaninja.android.twp:id/etPassword     qaninja
-    Click Element   id=io.qaninja.android.twp:id/btnSubmit
-
-    Wait Until Page Contains    Show! Suas credencias são validas.
+    Wait Until Page Contains        Show! Suas credencias são validas.              #aguarda até a imagem de sucesso aparecer

@@ -1,11 +1,6 @@
 ***Settings***
 Library         AppiumLibrary   #importa a biblioteca do Appium
-
-
-***Variables***
-${START}            COMEÇAR     #variavel com o botão começar
-${HAMBURGUER}       xpath=//android.widget.ImageButton[@content-desc="Open navigation drawer"]   #variavel com o menu esquerdo que parece uma hamburguer
-${NAV_VIEW}         id=io.qaninja.android.twp:id/navView
+Resource        helpers.robot
 
 ***Keywords***
 Open Session
@@ -21,12 +16,3 @@ Open Session
 
 Close Session
     Close Application   #Fecha a sessão da automação
-
-Get Started
-    Wait Until Page Contains        ${START}   #Aguarda até na tela aparecer o botão "Começar"  
-    Click Text                      ${START}   #Clica no botão "Começar"
-
-Open Nav
-    Wait Until Element Is Visible   ${HAMBURGUER}   #Aguarda até aparecer menu esquerdo que parece uma hamburguer
-    Click Element                   ${HAMBURGUER}   #clica no menu esquerdo
-    Wait Until Element Is Visible   ${NAV_VIEW}     #agaurda até aparecer as opções do menu lateral
