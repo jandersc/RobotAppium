@@ -36,3 +36,13 @@ Go To Radion Buttons
 
     Click Text                  BOTÕES DE RADIO       #clica na opção BOTÕES DE RADIO
     Wait Until Page Contains    Escolha sua linguagem preferida      #aguarda até abrir a tela de BOTÕES DE RADIO
+
+
+Go To CheckBox
+    Open Nav     #chama a  KW para abrir o menu esquerdo          
+
+    Click Text                  INPUTS       #clica na opção INPUTS
+    Wait Until Page Contains    INPUTS       #aguarda até abrir a tela de INPUTS
+
+    Click Text                  CHECKBOX       #clica na opção CHECKBOX
+    Wait Until Page Contains    Marque as techs que usam Appium      #aguarda até abrir a tela de CHECKBOX
