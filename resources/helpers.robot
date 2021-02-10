@@ -46,3 +46,12 @@ Go To CheckBox
 
     Click Text                  CHECKBOX       #clica na opção CHECKBOX
     Wait Until Page Contains    Marque as techs que usam Appium      #aguarda até abrir a tela de CHECKBOX
+
+Go To Short Click
+    Open Nav     #chama a  KW para abrir o menu esquerdo          
+
+    Click Text                  BOTÕES       #clica na opção BOTÕES
+    Wait Until Page Contains    CLIQUE SIMPLES       #aguarda até abrir a tela que contém o texto CLIQUE SIMPLES
+
+    Click Text                  CLIQUE SIMPLES       #clica na opção CHECKBOX
+    Wait Until Page Contains    Botão clique simples      #aguarda até abrir a tela de CHECKBOX
