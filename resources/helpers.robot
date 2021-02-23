@@ -53,5 +53,14 @@ Go To Short Click
     Click Text                  BOTÕES       #clica na opção BOTÕES
     Wait Until Page Contains    CLIQUE SIMPLES       #aguarda até abrir a tela que contém o texto CLIQUE SIMPLES
 
-    Click Text                  CLIQUE SIMPLES       #clica na opção CHECKBOX
-    Wait Until Page Contains    Botão clique simples      #aguarda até abrir a tela de CHECKBOX
+    Click Text                  CLIQUE SIMPLES       #clica na opção CLIQUE SIMPLES
+    Wait Until Page Contains    Botão clique simples      #aguarda até abrir a tela de CLIQUE SIMPLES
+
+Go To Long Click
+    Open Nav     #chama a  KW para abrir o menu esquerdo          
+
+    Click Text                  BOTÕES       #clica na opção BOTÕES
+    Wait Until Page Contains    CLIQUE LONGO       #aguarda até abrir a tela que contém o texto CLIQUE LONGO
+
+    Click Text                  CLIQUE LONGO       #clica na opção CLIQUE LONGO
+    Wait Until Page Contains    Botão clique longo      #aguarda até abrir a tela de CLIQUE LONGO
