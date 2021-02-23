@@ -28,6 +28,16 @@ Go To Login Form
     Wait Until Page Contains    Fala QA, vamos testar o login?      #aguarda até abrir a tela de LOGIN
 
 
+Go To SingUp Form
+    Open Nav     #chama a  KW para abrir o menu esquerdo          
+
+    Click Text                  FORMS       #clica na opção FORMS
+    Wait Until Page Contains    FORMS       #aguarda até abrir a tela de FORMS
+
+    Click Text                  CADASTRO       #clica na opção CADASTRO
+    Wait Until Page Contains    Bem-vindo, crie sua conta.      #aguarda até abrir a tela de CADASTRO
+
+
 Go To Radion Buttons
     Open Nav     #chama a  KW para abrir o menu esquerdo          
 
@@ -47,6 +57,7 @@ Go To CheckBox
     Click Text                  CHECKBOX       #clica na opção CHECKBOX
     Wait Until Page Contains    Marque as techs que usam Appium      #aguarda até abrir a tela de CHECKBOX
 
+
 Go To Short Click
     Open Nav     #chama a  KW para abrir o menu esquerdo          
 
@@ -56,6 +67,7 @@ Go To Short Click
     Click Text                  CLIQUE SIMPLES       #clica na opção CLIQUE SIMPLES
     Wait Until Page Contains    Botão clique simples      #aguarda até abrir a tela de CLIQUE SIMPLES
 
+
 Go To Long Click
     Open Nav     #chama a  KW para abrir o menu esquerdo          
 
@@ -64,3 +76,5 @@ Go To Long Click
 
     Click Text                  CLIQUE LONGO       #clica na opção CLIQUE LONGO
     Wait Until Page Contains    Botão clique longo      #aguarda até abrir a tela de CLIQUE LONGO
+
+
