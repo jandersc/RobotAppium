@@ -8,7 +8,7 @@ def drag_drop(element_id, p_origin, p_target):
     driver = appiumLib._current_application()
 
     ele_origin = driver.find_elements_by_id(element_id)[int(p_origin)]
-    ele_target = driver.find_elements_by_id(element_id)[int(p_target]
+    ele_target = driver.find_elements_by_id(element_id)[int(p_target)]
 
     actions = TouchAction(driver)
     actions.long_press(ele_origin).move_to(ele_target)

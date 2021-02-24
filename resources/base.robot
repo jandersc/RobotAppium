@@ -16,4 +16,5 @@ Open Session
     Get Started
 
 Close Session
+    Capture Page Screenshot     #Adiciona o screenshot no final de cada cenário de teste
     Close Application   #Fecha a sessão da automação
