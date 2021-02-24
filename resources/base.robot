@@ -1,5 +1,6 @@
 ***Settings***
 Library         AppiumLibrary   #importa a biblioteca do Appium
+Library         libs/extend.py
 Resource        helpers.robot
 
 ***Keywords***
