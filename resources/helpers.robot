@@ -78,3 +78,12 @@ Go To Long Click
     Wait Until Page Contains    Botão clique longo      #aguarda até abrir a tela de CLIQUE LONGO
 
 
+Go To Avenger List
+    Open Nav     #chama a  KW para abrir o menu esquerdo          
+
+    Click Text                  AVENGERS       #clica na opção AVENGERS
+    Wait Until Page Contains    AVENGERS       #aguarda até abrir a tela que contém o texto AVENGERS
+
+    Click Text                  LISTA       #clica na opção LISTA
+    Wait Until Page Contains    LISTA      #aguarda até abrir a tela de LISTA
+
